@@ -9,6 +9,9 @@ public class Radio {
     private int minVolume = 0;
     private int maxVolume = 100;
 
+    public Radio() {
+    }
+
     public Radio(int countStation) {
         this.counterStation = countStation;
         this.maxStation = countStation - 1;
