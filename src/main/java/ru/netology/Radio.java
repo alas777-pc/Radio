@@ -11,16 +11,12 @@ public class Radio {
     private int currentStation;
     private int currentVolume;
     private int counterStation;
-    private int minStation = 0;
+    private int minStation;
     private int maxStation = 10;
-    private int minVolume = 0;
+    private int minVolume;
     private int maxVolume = 100;
 
-    public Radio(int countStation, int currentVolume) {
-        this.counterStation = countStation;
-        this.maxStation = countStation - 1;
-        this.currentVolume = currentVolume;
-    }
+
 }
 
 
